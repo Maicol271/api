@@ -18,3 +18,5 @@ app.get('/',(req,res)=> res.send('Estamos en el servidor'))
 const server=app.listen(process.env.PORT || 8000,()=>{
     console.log('Etamos en JAPÓN')
 })
+
+export default app
